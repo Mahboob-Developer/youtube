@@ -1,0 +1,54 @@
+.logo {
+    width: 10%;
+}
+
+
+.searchInput {
+    width: 38vw;
+    border: none;
+  }
+  .searchInput2{
+    border: none;
+    background-color: transparent;
+  }
+  
+  .searchInput:focus, .searchInput2:focus {
+    outline: none;
+    
+  }
+  .searchInput::placeholder ,.searchInput2::placeholder{
+    text-orientation: upright;
+    }
+
+  
+  .searchButton,.searchButton2 {
+    border: none;
+    background-color: transparent;
+  }
+  
+  .searchButton:hover {
+    background-color: rgba(191, 199, 206, 0.349);
+  }
+  
+  .logo {
+    width: 10%;
+  }
+  
+  .droupIcons::after{
+    display: none;
+  }
+
+  .hoverButton:hover{
+    background-color: rgba(191, 199, 206, 0.349) !important;
+  }
+
+  .profileImage{
+    width: 2.5vw;
+    height: 5vh;
+  }
+  .profileImageView{
+    width: 3vw;
+    height: 6vh;
+  }
+
+  

@@ -1,0 +1,28 @@
+  
+  /* For tablets and up (medium-sized screens) */
+  @media screen and (max-width: 768px) {
+    .slider_horizontal {
+      width: 100%;
+      white-space: nowrap;
+      height: 5vh;
+      overflow-x: auto; /* Enable horizontal scrolling */
+    -ms-overflow-style: none;  /* For Internet Explorer */
+    scrollbar-width: none; /* For Firefox */
+    }
+  }
+  
+  /* For desktops and larger screens */
+  @media screen and (min-width: 768px) {
+    .slider_horizontal {
+      width: 100%; 
+      white-space: nowrap;
+      height: 8vh;
+      overflow-x: auto; /* Enable horizontal scrolling */
+        -ms-overflow-style: none;  /* For Internet Explorer */
+        scrollbar-width: none; /* For Firefox */
+    }
+  }
+  .slider_horizontal::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit browsers (Chrome, Safari, etc.) */
+  }
+  

@@ -1,0 +1,68 @@
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+.lightSecondary {
+  background-color: rgba(191, 199, 206, 0.349) !important;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+/* styles.css or in your global styles */
+ .dropdown-toggle::after {
+  display: none !important;
+}
+.btn-group.dropstart .dropdown-toggle::after {
+  display: none !important;
+}
+.textArea:focus{
+  border: none;
+  outline: none;
+}
+
+
+
+.removeBorder{
+  border: none !important;
+}
+

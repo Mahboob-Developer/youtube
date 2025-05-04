@@ -1,0 +1,27 @@
+
+.authorProfile{
+    width: 100%;
+
+}
+@media screen and (max-width:768px) {
+    .VideoWatch{
+        position: relative;
+        height: 30vh;
+        width: 100%;
+    }
+    .authorProfile img{
+        width: 100%;
+        height: 7vh;
+    }
+}
+@media screen and (min-width:769px) {
+    .VideoWatch{
+        position: relative;
+        height: 60vh;
+        width: 100%;
+    }
+    .authorProfile img{
+        width: 70%;
+        height: 7vh;
+    }
+}
